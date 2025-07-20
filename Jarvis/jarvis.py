@@ -13,11 +13,9 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)  
 engine.setProperty('rate', 150)
 engine.setProperty('volume', 1)
-### hello ###
-hel
 
 def speak(audio) -> None:
-    engine.say(audio)
+engine.say(audio) - Just hit tab to fix the error
     engine.runAndWait()
 
 
